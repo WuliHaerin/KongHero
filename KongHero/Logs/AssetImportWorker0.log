@@ -1,0 +1,1811 @@
+Using pre-set license
+Built from '2020.3/china_unity/release' branch; Version is '2021.3.41f1c1 (abf9ed549ceb) revision 11270637'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'zh' Physical Memory: 65440 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity Hub\Editor\2021.3.41f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityProject/KongHero/KongHero
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53015
+Successfully changed project path to: D:/UnityProject/KongHero/KongHero
+D:/UnityProject/KongHero/KongHero
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26620] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 4049229355 [EditorId] 4049229355 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26620] Host "[IP] 192.168.31.204 [Port] 0 [Flags] 2 [Guid] 4049229355 [EditorId] 4049229355 [Version] 1048832 [Id] WindowsEditor(7,BF-202501021008) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 85.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.41f1c1 (abf9ed549ceb)
+[Subsystems] Discovering subsystems at path D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProject/KongHero/KongHero/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity Hub/Editor/2021.3.41f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007777 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Domain Reload Profiling:
+	ReloadAssembly (946ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (660ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (160ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (388ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009238 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2273ms)
+		BeginReloadAssembly (215ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1881ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (464ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (1139ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (903ms)
+				ProcessInitializeOnLoadMethodAttributes (114ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3245 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (46.9 KB). Loaded Objects now: 3724.
+Memory consumption went from 120.2 MB to 120.1 MB.
+Total: 7.225600 ms (FindLiveObjects: 0.526000 ms CreateObjectMapping: 0.362200 ms MarkObjects: 6.188600 ms  DeleteObjects: 0.147400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009868 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2076ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1678ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1020ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (836ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3727.
+Memory consumption went from 118.3 MB to 118.3 MB.
+Total: 3.719500 ms (FindLiveObjects: 0.365400 ms CreateObjectMapping: 0.186100 ms MarkObjects: 3.143300 ms  DeleteObjects: 0.023700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008492 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.944 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1945ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1600ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (394ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (983ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (805ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3730.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 3.750900 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.183400 ms MarkObjects: 3.179600 ms  DeleteObjects: 0.026400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8289.716512 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter
+  artifactKey: Guid(ebbe6c659bacbb64b80a2f6d059e8bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter using Guid(ebbe6c659bacbb64b80a2f6d059e8bf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99288d61b523f6d9c8b2283560fc7c1') in 0.008001 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 208.934880 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity
+  artifactKey: Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity using Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf0b1424fb9c3e9b467dd7fc6ba34fd') in 0.001697 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 95.300332 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-2.unity
+  artifactKey: Guid(7a13376d6df877240913c3dc2b0b5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-2.unity using Guid(7a13376d6df877240913c3dc2b0b5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cd8317c287fb6b0c1fae79b3242dad2') in 0.002154 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 161.707381 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity
+  artifactKey: Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity using Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c72dad0ddd898c59e2a1c500f122035') in 0.001600 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.522778 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-2.unity
+  artifactKey: Guid(7a13376d6df877240913c3dc2b0b5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-2.unity using Guid(7a13376d6df877240913c3dc2b0b5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c7ff6b9d16d75a3e18826671e304dc') in 0.001526 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.898940 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-3.unity
+  artifactKey: Guid(c0e091902da5a6a478575d6ca31c9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-3.unity using Guid(c0e091902da5a6a478575d6ca31c9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c98d0ae62ab7691f5f379218f9b992b') in 0.001620 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 95.077489 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-4.unity
+  artifactKey: Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-4.unity using Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5ab38a56e30959764d529503a3fee7') in 0.001831 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.981021 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-5.unity
+  artifactKey: Guid(d5d88edb7fadb40029d2b04dbdc2f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-5.unity using Guid(d5d88edb7fadb40029d2b04dbdc2f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee906e7cd83abce53ae0a5f21a0e9a6') in 0.001896 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 49.435760 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-6.unity
+  artifactKey: Guid(5aa28f7386d974cad81ce57d410ce37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-6.unity using Guid(5aa28f7386d974cad81ce57d410ce37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd854dfebc8bc31130a13d9257f0b3c17') in 0.001742 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 101.324392 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-7.unity
+  artifactKey: Guid(11f2184125f8540a6b64dd73de80d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-7.unity using Guid(11f2184125f8540a6b64dd73de80d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0785c0526c3c0bcb182995ad2a547d43') in 0.001824 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 68.187669 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-8.unity
+  artifactKey: Guid(efe9457a47bfd412a95920612c5e8c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-8.unity using Guid(efe9457a47bfd412a95920612c5e8c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d08d89f99157e6ced22041255237fd') in 0.001794 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.339587 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-9.unity
+  artifactKey: Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-9.unity using Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b82e370c93284c55ca38aa79742708') in 0.001849 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.652154 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground
+  artifactKey: Guid(90791ca0a0f7d4d43a80ed2a5106b165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground using Guid(90791ca0a0f7d4d43a80ed2a5106b165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f27cb9505fa5595152cc9c80cf4920e') in 0.001679 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.738285 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-1.unity
+  artifactKey: Guid(f4d9ab5986ff9d74083b8a3862ab6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-1.unity using Guid(f4d9ab5986ff9d74083b8a3862ab6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e9ba44903d38ca02ef72bfa82e48ff') in 0.001761 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.340473 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy
+  artifactKey: Guid(5f32f8a422035274f8ae27967c2fb4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy using Guid(5f32f8a422035274f8ae27967c2fb4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ddf63af687d564ba0e34be1fad36a6') in 0.001816 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.780046 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-1.unity
+  artifactKey: Guid(46d0eaa35373b8a46b5fda1e16ab3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-1.unity using Guid(46d0eaa35373b8a46b5fda1e16ab3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa92919457b583e41b4b6d9bf2de87c') in 0.001824 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.621570 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-2.unity
+  artifactKey: Guid(60988b382a474604eb7aa2444a3f6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-2.unity using Guid(60988b382a474604eb7aa2444a3f6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0d565ba9bbcd67ebbbdb6db62ab3d1a') in 0.001749 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.387378 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-3.unity
+  artifactKey: Guid(007cd41590104954e9e834b13a7cecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-3.unity using Guid(007cd41590104954e9e834b13a7cecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c017033b149389ee72d4114cf41ffd') in 0.001769 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.476712 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-4.unity
+  artifactKey: Guid(8c6240d1312b126459292a2415a8175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-4.unity using Guid(8c6240d1312b126459292a2415a8175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97bfcfe45f8ad7c321a21b5fb23fb68') in 0.001746 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.851621 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-5.unity
+  artifactKey: Guid(c13ff2ea78ecb4505a97cc986ba1e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-5.unity using Guid(c13ff2ea78ecb4505a97cc986ba1e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4d7d4bee224d6a16bd9deca9b7e327d') in 0.001780 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.356252 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-6.unity
+  artifactKey: Guid(369be832f8c524e96a86f518d8cbc269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-6.unity using Guid(369be832f8c524e96a86f518d8cbc269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab5b0b154ba94f93b8451d7af5b10cf') in 0.001754 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.970902 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-7.unity
+  artifactKey: Guid(ca7059c4de97d4d48bfe4cec24a452a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-7.unity using Guid(ca7059c4de97d4d48bfe4cec24a452a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b47d2d986b3caa851896102b0293fa') in 0.001808 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.884110 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-1.unity
+  artifactKey: Guid(f4d9ab5986ff9d74083b8a3862ab6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-1.unity using Guid(f4d9ab5986ff9d74083b8a3862ab6fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae14ab66b25033dfb4eeb1b20aa386a') in 0.001618 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.573669 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-2.unity
+  artifactKey: Guid(60988b382a474604eb7aa2444a3f6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-2.unity using Guid(60988b382a474604eb7aa2444a3f6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c3636279a7ab1551e2cbc0ebf38152') in 0.001676 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.939507 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-3.unity
+  artifactKey: Guid(007cd41590104954e9e834b13a7cecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-3.unity using Guid(007cd41590104954e9e834b13a7cecf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48fc4dfecd5936e19242ad2394b02a3') in 0.001695 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.738382 seconds.
+  path: Assets/Kong Hero/Texture/Envaironment/Background/BG 8 - Cave/FG.png
+  artifactKey: Guid(368bec3f3a98a1b46bc1bb5939edde19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/Envaironment/Background/BG 8 - Cave/FG.png using Guid(368bec3f3a98a1b46bc1bb5939edde19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8493abb3db23cac6301c00f5d5dee18') in 0.098245 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.627116 seconds.
+  path: Assets/Kong Hero/Texture/Envaironment/Background/BG 8 - Cave/BG.png
+  artifactKey: Guid(e85bfd43504c63c4491190b2d6f97cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/Envaironment/Background/BG 8 - Cave/BG.png using Guid(e85bfd43504c63c4491190b2d6f97cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc35da9742dd332f3c012590bf47f2f1') in 0.016880 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 40.606205 seconds.
+  path: Assets/Kong Hero/Texture/Envaironment/Background/BG 1
+  artifactKey: Guid(3cf688431bca8ac409b2048e75a6d20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/Envaironment/Background/BG 1 using Guid(3cf688431bca8ac409b2048e75a6d20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84cf5b29a77c21cc0c72f40868f61e41') in 0.002471 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.099456 seconds.
+  path: Assets/Kong Hero/Texture/Envaironment/Background/BG 1/Cloud.png
+  artifactKey: Guid(7be2162fee5fa3449b55dab7def07a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/Envaironment/Background/BG 1/Cloud.png using Guid(7be2162fee5fa3449b55dab7def07a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7972549730f1ca7460a963b1393701e3') in 0.034293 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.763010 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-2.unity
+  artifactKey: Guid(60988b382a474604eb7aa2444a3f6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-2.unity using Guid(60988b382a474604eb7aa2444a3f6344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde93fcb5f288cc24da009b3dc5b7128') in 0.001659 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.757176 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-4.unity
+  artifactKey: Guid(8c6240d1312b126459292a2415a8175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-4.unity using Guid(8c6240d1312b126459292a2415a8175a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b422f2b0ba381bdb60cc3477ad4727') in 0.001606 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.475177 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-5.unity
+  artifactKey: Guid(c13ff2ea78ecb4505a97cc986ba1e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-5.unity using Guid(c13ff2ea78ecb4505a97cc986ba1e384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa3ac3b676f4e818dfeb18c7f611e31') in 0.001635 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.620473 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-6.unity
+  artifactKey: Guid(369be832f8c524e96a86f518d8cbc269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-6.unity using Guid(369be832f8c524e96a86f518d8cbc269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35160ea01c42db09dc3e555b53dd56e') in 0.001586 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.693337 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-7.unity
+  artifactKey: Guid(ca7059c4de97d4d48bfe4cec24a452a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-7.unity using Guid(ca7059c4de97d4d48bfe4cec24a452a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26f3be3089b05e91d6049fb2f558de99') in 0.001662 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.675110 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-8.unity
+  artifactKey: Guid(0d6ded03cc7514f03bddcf822f9ecc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-8.unity using Guid(0d6ded03cc7514f03bddcf822f9ecc12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deba897f93e0556cca7fa9696361b5cb') in 0.001705 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.164409 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-9.unity
+  artifactKey: Guid(c8e6659ad9fa245448e10bb27ad128df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 2 - Underground/World 2-9.unity using Guid(c8e6659ad9fa245448e10bb27ad128df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3b2fd7c52950f09e8d4fbeb1385d7a3') in 0.001839 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 52.933328 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-2.unity
+  artifactKey: Guid(a05cb70815ad90c4ba46c81a263ed235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-2.unity using Guid(a05cb70815ad90c4ba46c81a263ed235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb49ee8d546d8b620c1785944591be8') in 0.001755 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.227076 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-1.unity
+  artifactKey: Guid(46d0eaa35373b8a46b5fda1e16ab3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-1.unity using Guid(46d0eaa35373b8a46b5fda1e16ab3689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24edb81b2e3ecba6acb16080383a6ff') in 0.001728 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.700160 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-2.unity
+  artifactKey: Guid(a05cb70815ad90c4ba46c81a263ed235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-2.unity using Guid(a05cb70815ad90c4ba46c81a263ed235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '715c74667694b583e26ff4b1e61dbba9') in 0.001590 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.925456 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-3.unity
+  artifactKey: Guid(730dc71c463b04f2586a5a1a1a1e3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-3.unity using Guid(730dc71c463b04f2586a5a1a1a1e3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9af361477c38a10d46b0597ff3aea997') in 0.001792 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 33.696773 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-4.unity
+  artifactKey: Guid(763097df928cd40dab211b0df9a25bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-4.unity using Guid(763097df928cd40dab211b0df9a25bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8739679daf59ed85d7fca534dd161548') in 0.001771 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.788304 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-5.unity
+  artifactKey: Guid(04615a3b93d674b23909ba716da3e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-5.unity using Guid(04615a3b93d674b23909ba716da3e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162bcfc4254d3f87a3b9bbd0e6450c03') in 0.001690 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.684618 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-6.unity
+  artifactKey: Guid(4688d648081834456a94d73b57c016db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-6.unity using Guid(4688d648081834456a94d73b57c016db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a2d2cbbdb96b9a2cfff94d9e5ef622') in 0.001702 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.435673 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-7.unity
+  artifactKey: Guid(88a850ad1369d4b2088c12c9610e11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-7.unity using Guid(88a850ad1369d4b2088c12c9610e11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae248a5831af488ce5636b4d94f41e0f') in 0.001799 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.467531 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-8.unity
+  artifactKey: Guid(f29b7a1cc5aa0428f9988e8baaa52cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-8.unity using Guid(f29b7a1cc5aa0428f9988e8baaa52cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e2f8a79ea0ee09200f3574a4c689cc2') in 0.001660 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.828978 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-9.unity
+  artifactKey: Guid(ca73e53b1a566461bb5668fc3528177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-9.unity using Guid(ca73e53b1a566461bb5668fc3528177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490c8fa8dafb7339313038bd15ef3d4e') in 0.001791 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 61.036692 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-3.unity
+  artifactKey: Guid(c0e091902da5a6a478575d6ca31c9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-3.unity using Guid(c0e091902da5a6a478575d6ca31c9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '320a7125ca6bc2d1a0800b5b618a912e') in 0.001621 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 630.563455 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-4.unity
+  artifactKey: Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-4.unity using Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2626d1361cfdd9e686bcf593a356d9a0') in 0.001694 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.515840 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-5.unity
+  artifactKey: Guid(d5d88edb7fadb40029d2b04dbdc2f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-5.unity using Guid(d5d88edb7fadb40029d2b04dbdc2f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '339f420ef6c4043d91416db29e0d239c') in 0.001616 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.156325 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-6.unity
+  artifactKey: Guid(5aa28f7386d974cad81ce57d410ce37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-6.unity using Guid(5aa28f7386d974cad81ce57d410ce37a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0038314fd5a279453d2db708d56159e') in 0.001634 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.228042 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-7.unity
+  artifactKey: Guid(11f2184125f8540a6b64dd73de80d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-7.unity using Guid(11f2184125f8540a6b64dd73de80d143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd8bb90fb0bc19ca21627d2b4e05911') in 0.001578 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.724388 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-8.unity
+  artifactKey: Guid(efe9457a47bfd412a95920612c5e8c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-8.unity using Guid(efe9457a47bfd412a95920612c5e8c0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c60fd234e533188fbad8d048a4aed69') in 0.001688 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.092401 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-9.unity
+  artifactKey: Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-9.unity using Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a09b91c9b72fe72b31e4f5237cb97f') in 0.001657 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.459197 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-4.unity
+  artifactKey: Guid(763097df928cd40dab211b0df9a25bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-4.unity using Guid(763097df928cd40dab211b0df9a25bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '505c58db9bb34ab75433d8d7714a956a') in 0.001653 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.340738 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-5.unity
+  artifactKey: Guid(04615a3b93d674b23909ba716da3e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-5.unity using Guid(04615a3b93d674b23909ba716da3e591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f892b4d032e7109c778feb614611bd67') in 0.001699 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.243860 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-6.unity
+  artifactKey: Guid(4688d648081834456a94d73b57c016db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-6.unity using Guid(4688d648081834456a94d73b57c016db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1e1781a1c39ac28c4f41537c284a05') in 0.001677 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.076548 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-7.unity
+  artifactKey: Guid(88a850ad1369d4b2088c12c9610e11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-7.unity using Guid(88a850ad1369d4b2088c12c9610e11b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550c8d93324731f4f3346ea4cd003bb1') in 0.001533 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.556151 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-8.unity
+  artifactKey: Guid(f29b7a1cc5aa0428f9988e8baaa52cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-8.unity using Guid(f29b7a1cc5aa0428f9988e8baaa52cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e0d511134b730749eae51f831cce0c') in 0.001610 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.236372 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-9.unity
+  artifactKey: Guid(ca73e53b1a566461bb5668fc3528177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 3 - SKy/World 3-9.unity using Guid(ca73e53b1a566461bb5668fc3528177d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf1b4bdef15307d9352775c8a0f7f6d') in 0.001588 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.004388 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-1.unity
+  artifactKey: Guid(553965177307d58438665028e3ba1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-1.unity using Guid(553965177307d58438665028e3ba1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1cc0282657bbe5780d14ec0fa40c70') in 0.001729 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.589080 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-2.unity
+  artifactKey: Guid(2507f2859d0f85b46a12dc2137adb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-2.unity using Guid(2507f2859d0f85b46a12dc2137adb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0848b1988a80db8c43c9ebfb930223') in 0.001812 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.450754 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-3.unity
+  artifactKey: Guid(1bbea2136fdd41749805d46da933cfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-3.unity using Guid(1bbea2136fdd41749805d46da933cfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b700d0b2011d46cb5b9ef06d0f17b631') in 0.001838 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 21.205286 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-1.unity
+  artifactKey: Guid(553965177307d58438665028e3ba1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-1.unity using Guid(553965177307d58438665028e3ba1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3289841cba737489901875fb67db87bc') in 0.001613 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.044422 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-1.unity
+  artifactKey: Guid(553965177307d58438665028e3ba1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-1.unity using Guid(553965177307d58438665028e3ba1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162d9ad54bcecdc0e92b9fed9e08b5b8') in 0.001705 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.698459 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-2.unity
+  artifactKey: Guid(2507f2859d0f85b46a12dc2137adb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-2.unity using Guid(2507f2859d0f85b46a12dc2137adb60c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6edb7664208e41db51147a0ce3b668e') in 0.001679 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.309503 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-4.unity
+  artifactKey: Guid(8188770343c5f4dd7b07bb42ed135320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-4.unity using Guid(8188770343c5f4dd7b07bb42ed135320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15f1dcc2efbe0b1861acff7e40e24f2') in 0.001861 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.651975 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-5.unity
+  artifactKey: Guid(3a15b1e4225244a8181e90e3e1f4f300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-5.unity using Guid(3a15b1e4225244a8181e90e3e1f4f300) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd32110a7380cc7bb92824ede08ce866') in 0.001796 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.172594 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-6.unity
+  artifactKey: Guid(e2a36ea12fab0463396da234a91adbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-6.unity using Guid(e2a36ea12fab0463396da234a91adbe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00827c253a0d85177f40ec3ba1b5e76f') in 0.001781 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.499377 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-7.unity
+  artifactKey: Guid(f1ff43c576af34dd7a8cfa677caa0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-7.unity using Guid(f1ff43c576af34dd7a8cfa677caa0372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e2122e5628f0ca8fd53950b0ffa414') in 0.001732 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.372390 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-8.unity
+  artifactKey: Guid(0deccee5ef90e457396fb6ec6de4144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-8.unity using Guid(0deccee5ef90e457396fb6ec6de4144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967f6012a1ae3e38bdf66f0d1cffe0b7') in 0.001847 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 19.956337 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-9.unity
+  artifactKey: Guid(b5821885f45844e98b3d4c0fdb6ddf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 4 - Winter/World 4-9.unity using Guid(b5821885f45844e98b3d4c0fdb6ddf8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f138a4ad0d07fad9b418fcfa3f644f') in 0.001778 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008411 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1997ms)
+		BeginReloadAssembly (243ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (1627ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1034ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (854ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3738.
+Memory consumption went from 118.5 MB to 118.5 MB.
+Total: 3.700400 ms (FindLiveObjects: 0.330800 ms CreateObjectMapping: 0.183500 ms MarkObjects: 3.164600 ms  DeleteObjects: 0.020700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 158.610476 seconds.
+  path: Assets/Kong Hero/Resources
+  artifactKey: Guid(7b736e97066f104418c95f69451c4839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources using Guid(7b736e97066f104418c95f69451c4839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589bb83f8cff4d417a196a451e4b2287') in 0.010136 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071999 seconds.
+  path: Assets/Kong Hero/Resources/Canon.prefab
+  artifactKey: Guid(2214629ff8c4f2846a397a5d5c470cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/Canon.prefab using Guid(2214629ff8c4f2846a397a5d5c470cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5e07ba52038a558693474f75efa5e36') in 0.149416 seconds 
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 9.238285 seconds.
+  path: Assets/Kong Hero/Resources/Player
+  artifactKey: Guid(3a560fec9b5ba6f42b3d6cbb6a27332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/Player using Guid(3a560fec9b5ba6f42b3d6cbb6a27332b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555d8539d6ee00dfb78b2a10f263fe73') in 0.002443 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.083671 seconds.
+  path: Assets/Kong Hero/Resources/Player/HealthBar.prefab
+  artifactKey: Guid(ae5e9991bba509b448e91405dd188ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/Player/HealthBar.prefab using Guid(ae5e9991bba509b448e91405dd188ab4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3c73dd4ad9bee3dc9c985534dd1565') in 0.013004 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Kong Hero/Resources/Player/Hunter.prefab
+  artifactKey: Guid(f880a647726c24d63afebb6079c09690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/Player/Hunter.prefab using Guid(f880a647726c24d63afebb6079c09690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6744d7ee8fc958ada72e9d9a7a58c5') in 0.216432 seconds 
+Number of asset objects unloaded after import = 249
+========================================================================
+Received Import Request.
+  Time since last request: 4.502717 seconds.
+  path: Assets/Kong Hero/Resources/MainMenu
+  artifactKey: Guid(b1b53263781cb644fb204ac4857bb3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/MainMenu using Guid(b1b53263781cb644fb204ac4857bb3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94afdbd9583a113999c8d34676b81c34') in 0.002564 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.080589 seconds.
+  path: Assets/Kong Hero/Resources/MainMenu/1.prefab
+  artifactKey: Guid(06a1893173af4d447b4516eb9e533223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/MainMenu/1.prefab using Guid(06a1893173af4d447b4516eb9e533223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143c513a981f8129490602d4fce37310') in 0.035970 seconds 
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Kong Hero/Resources/MainMenu/World 1.prefab
+  artifactKey: Guid(3d24cedc6b46c2b458d4fec47a02af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/MainMenu/World 1.prefab using Guid(3d24cedc6b46c2b458d4fec47a02af61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5707c323a4a6198c614c76bedfe7bac') in 0.007265 seconds 
+Number of asset objects unloaded after import = 39
+========================================================================
+Received Import Request.
+  Time since last request: 9.744894 seconds.
+  path: Assets/Kong Hero/Plugins
+  artifactKey: Guid(99afe5e0c6d49b140adca58386142193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Plugins using Guid(99afe5e0c6d49b140adca58386142193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80edea2b1e68001801cd07b00d446ea6') in 0.001870 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.938241 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(f91a8431643479748bb9fcc937ea9aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes using Guid(f91a8431643479748bb9fcc937ea9aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ffa9c764f121d5f248f2258e6d04959') in 0.001857 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.755634 seconds.
+  path: Assets/Kong Hero/Plugins/ByteGame
+  artifactKey: Guid(871ef34629097de4aa6b8a68c25cd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Plugins/ByteGame using Guid(871ef34629097de4aa6b8a68c25cd5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecbca09fd9b3edd8b7dcb090ac51e1f') in 0.001794 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.397428 seconds.
+  path: Assets/Kong Hero/Ad/Ad.cs
+  artifactKey: Guid(7a28426cedcd60a4dadc63ed80ef9bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Ad/Ad.cs using Guid(7a28426cedcd60a4dadc63ed80ef9bf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51af10a066a3cf79315440bc8424b5aa') in 0.006793 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.649895 seconds.
+  path: Assets/Kong Hero/Ad/AdManager.cs
+  artifactKey: Guid(635116dd8f1e46a4e95e0bcde31a5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Ad/AdManager.cs using Guid(635116dd8f1e46a4e95e0bcde31a5e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc35a6099dc801fe33a58f94e350918c') in 0.001793 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.341182 seconds.
+  path: Assets/Kong Hero/Ad/CebianlanManager.cs
+  artifactKey: Guid(388ded49935e2cd4b844e6794f6c4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Ad/CebianlanManager.cs using Guid(388ded49935e2cd4b844e6794f6c4cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e444a3e2e7c4f1530124f6940b6081e') in 0.001849 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.350668 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity
+  artifactKey: Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity using Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229b0e39325b4885ee6ed5a916503d11') in 0.001682 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022424 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.050 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2051ms)
+		BeginReloadAssembly (226ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (1680ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1043ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (838ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (23.0 KB). Loaded Objects now: 3749.
+Memory consumption went from 122.9 MB to 122.9 MB.
+Total: 6.878900 ms (FindLiveObjects: 0.523700 ms CreateObjectMapping: 0.365400 ms MarkObjects: 5.933300 ms  DeleteObjects: 0.054800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1985ms)
+		BeginReloadAssembly (227ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (1630ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (1031ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (853ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 3752.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 3.687300 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.193900 ms MarkObjects: 3.096500 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008319 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2011ms)
+		BeginReloadAssembly (235ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1649ms)
+			LoadAssemblies (132ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (429ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (1005ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (76ms)
+				ProcessInitializeOnLoadAttributes (836ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3755.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 3.545900 ms (FindLiveObjects: 0.313400 ms CreateObjectMapping: 0.182100 ms MarkObjects: 3.030300 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 627.952322 seconds.
+  path: Assets/Kong Hero/Animation/GUI/live.controller
+  artifactKey: Guid(254c9e3faf185ca40b4932b8c7876bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Animation/GUI/live.controller using Guid(254c9e3faf185ca40b4932b8c7876bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e092e83a8bce56cca648f37bb03cd2df') in 0.023439 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1959ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1561ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (961ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (792ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 3758.
+Memory consumption went from 123.0 MB to 122.9 MB.
+Total: 3.588300 ms (FindLiveObjects: 0.358600 ms CreateObjectMapping: 0.187400 ms MarkObjects: 3.021800 ms  DeleteObjects: 0.019500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 735.267289 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-2.unity
+  artifactKey: Guid(7a13376d6df877240913c3dc2b0b5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-2.unity using Guid(7a13376d6df877240913c3dc2b0b5d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9709f3f88929288501cd184e3a8c51') in 0.010230 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.154509 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity
+  artifactKey: Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity using Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '383816e401121d7189b1b69796eeaa51') in 0.001582 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.171634 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-3.unity
+  artifactKey: Guid(c0e091902da5a6a478575d6ca31c9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-3.unity using Guid(c0e091902da5a6a478575d6ca31c9934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f3bef62597969b5cb4982f7a107294') in 0.001627 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 56.140187 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-4.unity
+  artifactKey: Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-4.unity using Guid(a5a9770756dee4aa59a724786ee74961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fe04830835ceaa4bb7c1642d3944e0') in 0.001627 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.220172 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-5.unity
+  artifactKey: Guid(d5d88edb7fadb40029d2b04dbdc2f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-5.unity using Guid(d5d88edb7fadb40029d2b04dbdc2f7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcb1080b678074f5675e0b35e5d0533') in 0.001698 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.620121 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity
+  artifactKey: Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity using Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afdad455d9c282ab6f6643bf95ed8c2') in 0.001709 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.636479 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-9.unity
+  artifactKey: Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-9.unity using Guid(dcc92316c0a6844148e4e3874683a458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d83a7e610951cc21746dedc97eea3ad') in 0.001638 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 64.500128 seconds.
+  path: Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity
+  artifactKey: Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Scene/Worlds/World 1 - Mountain/World 1-1.unity using Guid(eb68f6a72c14be147a1539877a3b5891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc551efc757b9ded2d981773c8ba7f21') in 0.001670 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008483 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2147ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1756ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (389ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (926ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3761.
+Memory consumption went from 123.1 MB to 123.0 MB.
+Total: 3.559400 ms (FindLiveObjects: 0.362800 ms CreateObjectMapping: 0.206400 ms MarkObjects: 2.968000 ms  DeleteObjects: 0.021100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016349 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.974 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1975ms)
+		BeginReloadAssembly (229ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (1619ms)
+			LoadAssemblies (138ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (378ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (1007ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (818ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 3764.
+Memory consumption went from 123.1 MB to 123.0 MB.
+Total: 6.784200 ms (FindLiveObjects: 0.512200 ms CreateObjectMapping: 0.368900 ms MarkObjects: 5.864100 ms  DeleteObjects: 0.037300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008525 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2064ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1673ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (406ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (990ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (813ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 3767.
+Memory consumption went from 123.0 MB to 123.0 MB.
+Total: 3.723900 ms (FindLiveObjects: 0.355500 ms CreateObjectMapping: 0.183900 ms MarkObjects: 3.164000 ms  DeleteObjects: 0.019700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 284.949149 seconds.
+  path: Assets/Kong Hero/Resources/_Environment
+  artifactKey: Guid(29800e795d2621545984e820e32a7e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_Environment using Guid(29800e795d2621545984e820e32a7e78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9eb257c02a109be55b0463f8530e9f') in 0.009859 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 28.480407 seconds.
+  path: Assets/Kong Hero/Resources/GUI
+  artifactKey: Guid(b5f8ad2a1f01cad4ab5952e7a69cec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/GUI using Guid(b5f8ad2a1f01cad4ab5952e7a69cec91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '610469ee3b19f5048a0f5244ff8574db') in 0.001923 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059169 seconds.
+  path: Assets/Kong Hero/Resources/GUI/CameraFadeInEffect.prefab
+  artifactKey: Guid(8934df31d3546f54cb754d5cbbeb5a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/GUI/CameraFadeInEffect.prefab using Guid(8934df31d3546f54cb754d5cbbeb5a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81af90b1f5517c915c6de0a3d0cb306f') in 0.047279 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.632856 seconds.
+  path: Assets/Kong Hero/Resources/Enemies
+  artifactKey: Guid(126422a712c85e9418f4fb9ea96a4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/Enemies using Guid(126422a712c85e9418f4fb9ea96a4141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06025766ed08f04ab55e4db1ab108c7') in 0.001820 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.077521 seconds.
+  path: Assets/Kong Hero/Resources/Enemies/Monster Trigger.prefab
+  artifactKey: Guid(46396eea182406c4fab356777e7ef457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/Enemies/Monster Trigger.prefab using Guid(46396eea182406c4fab356777e7ef457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dca2639ba0bbc02d8bc4621d5f0ec28') in 0.004596 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 6.044660 seconds.
+  path: Assets/Kong Hero/Texture/GUI/1464557304_alarm-clock.png
+  artifactKey: Guid(0666658e7c2b4b349a0bf07b61370c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/1464557304_alarm-clock.png using Guid(0666658e7c2b4b349a0bf07b61370c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60a01cfd01d62bc5b3a3ad00057953d') in 0.066068 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kong Hero/Audio/Battle theme.mp3
+  artifactKey: Guid(36316b74b719d1d4cae84cd792f86b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Audio/Battle theme.mp3 using Guid(36316b74b719d1d4cae84cd792f86b40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0c5c8c7b6ce9e45072759e9b5cfd0b7') in 0.060360 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.790642 seconds.
+  path: Assets/Kong Hero/Resources/_NeedInScene/Menu.prefab
+  artifactKey: Guid(47ff9b6a25651d444b757d6ad85d9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_NeedInScene/Menu.prefab using Guid(47ff9b6a25651d444b757d6ad85d9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937eac044e59dc7de6a70359c1231b5a') in 0.098971 seconds 
+Number of asset objects unloaded after import = 353
+========================================================================
+Received Import Request.
+  Time since last request: 24.418233 seconds.
+  path: Assets/Kong Hero/Resources/_NeedInScene/Camera Bounds.prefab
+  artifactKey: Guid(28bfad99075b21a4fba20dd14bd67464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_NeedInScene/Camera Bounds.prefab using Guid(28bfad99075b21a4fba20dd14bd67464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0062e4449738d7cb670ef251a334b504') in 0.004778 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.002080 seconds.
+  path: Assets/Kong Hero/Resources/_NeedInScene/Main Camera.prefab
+  artifactKey: Guid(94dc084ff98dd444cbcf640e1ac6c620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_NeedInScene/Main Camera.prefab using Guid(94dc084ff98dd444cbcf640e1ac6c620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e27de94ed823376ec015f9dfcd30c5') in 0.004964 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kong Hero/Resources/_NeedInScene/Kill Zone.prefab
+  artifactKey: Guid(11c2ab5e2f920f64ab7f10512660a68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_NeedInScene/Kill Zone.prefab using Guid(11c2ab5e2f920f64ab7f10512660a68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770033b4029a5c37262645be7398bc31') in 0.004268 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kong Hero/Resources/_NeedInScene/GameManager.prefab
+  artifactKey: Guid(2695c4f01440e024e9a37a31a3a761f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_NeedInScene/GameManager.prefab using Guid(2695c4f01440e024e9a37a31a3a761f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8d6fdd316a0f6e5354356e452c8220') in 0.042263 seconds 
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time since last request: 6.602543 seconds.
+  path: Assets/Kong Hero/Resources/_NeedInScene/Menu.prefab
+  artifactKey: Guid(47ff9b6a25651d444b757d6ad85d9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Resources/_NeedInScene/Menu.prefab using Guid(47ff9b6a25651d444b757d6ad85d9b43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c69c820d1ba1088a9efc86052067b823') in 0.029784 seconds 
+Number of asset objects unloaded after import = 353
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009624 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.943 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1944ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1578ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (376ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (990ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (822ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (23.6 KB). Loaded Objects now: 3779.
+Memory consumption went from 123.7 MB to 123.6 MB.
+Total: 6.398700 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.182000 ms MarkObjects: 5.809500 ms  DeleteObjects: 0.059300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009791 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2021ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1666ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (439ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (988ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (823ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.0 KB). Loaded Objects now: 3782.
+Memory consumption went from 123.7 MB to 123.6 MB.
+Total: 6.860700 ms (FindLiveObjects: 0.513200 ms CreateObjectMapping: 0.359500 ms MarkObjects: 5.948900 ms  DeleteObjects: 0.037300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 254.567850 seconds.
+  path: Assets/Kong Hero/Texture/GUI/Button.psd
+  artifactKey: Guid(b68fca8cae7875245a12490807785baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/Button.psd using Guid(b68fca8cae7875245a12490807785baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8714523e5a54b34db543fb8525c66d9') in 0.163580 seconds 
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Kong Hero/Texture/GUI/Head.png
+  artifactKey: Guid(07ae00ea0ecaba749b1bf148d51c7e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/Head.png using Guid(07ae00ea0ecaba749b1bf148d51c7e53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92786a862db6ced3b3e6748ccc5a196') in 0.014541 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Kong Hero/Texture/GUI/shutterstock_309754328 [Converted].png
+  artifactKey: Guid(39254056b7c77e24e9cccdbbfadbb6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/shutterstock_309754328 [Converted].png using Guid(39254056b7c77e24e9cccdbbfadbb6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c352c06c342afca8536d0084421930') in 0.087187 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Kong Hero/Texture/GUI/cảnh 3 [Converted].png
+  artifactKey: Guid(7484c6fe681a54446b44c8d656ea6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/cảnh 3 [Converted].png using Guid(7484c6fe681a54446b44c8d656ea6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a20bd57c2c30d78dc4e166fbb53271d') in 0.089605 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Kong Hero/Texture/GUI/Controller.psd
+  artifactKey: Guid(875b5e3906495da48b9f49146ad8de5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/Controller.psd using Guid(875b5e3906495da48b9f49146ad8de5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1559d8f22277b9001b384f14eeb331') in 0.034155 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Kong Hero/Texture/GUI/Helper2.png
+  artifactKey: Guid(b0ee28ebff5b54a80ba5550bdca3cc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/Helper2.png using Guid(b0ee28ebff5b54a80ba5550bdca3cc33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff310f2439c6307e1b66cf3983b7f6db') in 0.019824 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Kong Hero/Texture/GUI/Level.png
+  artifactKey: Guid(743ff56cb79b0814584976735e048e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/Level.png using Guid(743ff56cb79b0814584976735e048e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eaffbe5a0b7500da9fd8238360f12bc') in 0.023754 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Kong Hero/Texture/GUI/Cave Demo 1.png
+  artifactKey: Guid(3df43246ed18570469f2a3706d5e259e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Kong Hero/Texture/GUI/Cave Demo 1.png using Guid(3df43246ed18570469f2a3706d5e259e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b4e31ce0cd34b737119924854f1ab3') in 0.069183 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
